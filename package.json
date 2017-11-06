@@ -1,6 +1,6 @@
 {
   "name": "rpc-over-rabbitmq",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A performant RPC implementation. It reuses callback queue a given client.",
   "main": "index.js",
   "scripts": {
