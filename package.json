@@ -1,27 +1,57 @@
 {
-  "name": "rpc-over-rabbitmq",
-  "version": "0.0.9",
+  "_args": [
+    [
+      "rpc-over-rabbitmq@0.0.9",
+      "/home/amit/Projects/ab/entity"
+    ]
+  ],
+  "_from": "rpc-over-rabbitmq@0.0.9",
+  "_id": "rpc-over-rabbitmq@0.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-10/iFVdLPznvQ8sBij7KKFIgDmcesUBP1RORHhl8ri1yq7mgtJtIsm0Wpu9jNKF759Gaow4UVi6GVq/N+oSIdg==",
+  "_location": "/rpc-over-rabbitmq",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "rpc-over-rabbitmq@0.0.9",
+    "name": "rpc-over-rabbitmq",
+    "escapedName": "rpc-over-rabbitmq",
+    "rawSpec": "0.0.9",
+    "saveSpec": null,
+    "fetchSpec": "0.0.9"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rpc-over-rabbitmq/-/rpc-over-rabbitmq-0.0.9.tgz",
+  "_spec": "0.0.9",
+  "_where": "/home/amit/Projects/ab/entity",
+  "author": {
+    "name": "daveamit@live.com"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "uuid": "^3.1.0"
+  },
   "description": "A performant RPC implementation. It reuses callback queue a given client.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
   },
   "keywords": [
     "rpc",
     "rabbitmq"
   ],
-  "author": "daveamit@live.com",
   "license": "ISC",
-  "dependencies": {
-    "amqplib": "^0.5.1",
-    "uuid": "^3.1.0"
-  },
+  "main": "index.js",
+  "name": "rpc-over-rabbitmq",
   "peerDependencies": {
     "ajv": "^5.3.0"
   },
-  "devDependencies": {
-    "eslint": "^4.10.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0"
-  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.9"
 }
