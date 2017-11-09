@@ -11,7 +11,7 @@ async function init(opts) {
     const ch = await conn.createChannel();
 
     const [on, call, broadcast, newsOn] = await Promise.all([server(ch), client(ch), broadcastMod(ch), newsOnMod(ch)]);
-    module.exports.on = on;
+    module.exports.on = on(call);
     module.exports.call = call;
     module.exports.broadcast = broadcast;
     module.exports.newsOn = newsOn;
